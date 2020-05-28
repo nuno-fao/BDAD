@@ -43,49 +43,49 @@ INSERT INTO cliente(codigo,boolPremium) VALUES (110,1);
 
 --  FUNCIONARIOS
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (1,918864871,"func001@hotmail.com",215478633);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (1,1,"Rodrigo Teixeira",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (1,1, 2, "Rodrigo Teixeira",721.58, "1998-02-18");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (2,938954831,"func002@hotmail.com",222485321);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (2,2,"João MARTEins",721.58);
+INSERT INTO funcionario(codigo,idFuncionario,nome,salario,dataNascimento) VALUES (2,2,"João MARTEins",721.58, "2001-05-07");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (3,923565488,"func003@hotmail.com",285488644);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (3,3,"Joana Canela",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (3,3, 1,"Joana Canela",721.58,"1998-08-22");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (4,998721326,"func004@hotmail.com",285761233);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (4,4,"Alexandre António",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (4,4,3,"Alexandre António",721.58,"1985-03-25");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (5,965813331,"func005@hotmail.com",256483322);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (5,5,"Ana Andrade",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (5,5,2,"Ana Andrade",721.58,"1999-07-13");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (6,932232344,"func006@hotmail.com",261657633);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (6,6,"Gerson Gerónimo",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (6,6,1,"Gerson Gerónimo",721.58,"1990-06-16");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (7,964586733,"func007@hotmail.com",256468456);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (7,7,"Fabiana Linhares",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (7,7,3,"Fabiana Linhares",721.58,"2001-04-17");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (8,962962626,"func008@hotmail.com",205245543);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (8,8,"Nélson Gameiro",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (8,8,2,"Nélson Gameiro",721.58,"2000-09-19");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (9,905246844,"func009@hotmail.com",232154151);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (9,9,"Eddy Carromeu",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (9,9,1,"Eddy Carromeu",721.58,"1998-03-23");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (10,956485633,"func010@hotmail.com",233254844);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (10,10,"Nadia Sítima",721.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (10,10,1,"Nadia Sítima",721.58,"1989-06-01");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (11,956488665,"func011@hotmail.com",254156468);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (11,11,"Amanda Rolim",1100.);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (11,11,2,"Amanda Rolim",1100.00,"1999-12-25");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (12,928748332,"func012@hotmail.com",256488662);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (12,12,"Esteban Gouveia",821.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (12,12,3,"Esteban Gouveia",821.58,"1980-09-30");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (13,965456152,"func013@hotmail.com",257864561);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (13,13,"Máximo Torreiro",821.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (13,13,1,"Máximo Torreiro",821.58,"1999-05-03");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (14,965456136,"func014@hotmail.com",262352165);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (14,14,"Pedro Barreira",621.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (14,14,2,"Pedro Barreira",621.58,"1988-09-15");
 
 INSERT INTO pessoa(codigo,telefone,email,nif) VALUES (15,965456565,"func015@hotmail.com",205405160);
-INSERT INTO funcionario(codigo,idFuncionario,nome,salario) VALUES (15,15,"Armindo Belém",621.58);
+INSERT INTO funcionario(codigo,idFuncionario, idLoja, nome,salario,dataNascimento) VALUES (15,15,1,"Armindo Belém",621.58,"2001-07-12");
 
 --  ESPECIALIDADES
 INSERT INTO especialidade(nome) VALUES ("JOGOS");
@@ -154,12 +154,12 @@ INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (1,"DOMINGO",
 
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (2,"QUARTEA-FEIRA",0800,1600);
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (2,"SEXTA-FEIRA",0800,1600);
-INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"SABADO",0800,1600);
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (2,"DOMINGO",0800,1300);
 
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"SEGUNDA-FEIRA",0800,1600);
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"TERCA-FEIRA",0800,1600);
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"QUINTA-FEIRA",0800,1600);
+INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"SABADO",0800,1600);
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (3,"DOMINGO",0800,1300);
 
 
@@ -224,45 +224,45 @@ INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (15,"SABADO",
 INSERT INTO horario(idFuncionario,diaSemana,abertura,fecho) VALUES (15,"DOMINGO",0800,1400);
 
 --  COMPRAS
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (1,"19-01-19",15.99,1,101);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (1,"2019-01-18",15.99,1,101);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (2,"22-01-19",11.99,2,105);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (2,"2020-01-14",11.99,2,105);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (3,"23-01-19",14.99,1,5);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (3,"2020-01-19",14.99,1,5);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (4,"11-02-19",219.90,1,102);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (4,"2011-02-05",219.90,1,102);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (5,"23-02-19",14.99,2,103);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (5,"2020-02-26",14.99,2,103);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (6,"19-03-19",74.90,3,104);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (6,"2020-03-13",74.90,3,104);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (7,"05-04-19",59.99,1,107);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (7,"2020-04-04",59.99,1,107);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (8,"10-04-19",5299.90,1,11);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (8,"2019-04-26",5299.90,1,11);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (9,"19-05-19",779.90,1,103);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (9,"2019-05-27",779.90,1,103);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (10,"22-05-19",59.99,2,102);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (10,"2020-05-19",59.99,2,102);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (11,"26-05-19",14.99,2,103);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (11,"2019-05-24",14.99,2,103);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (12,"30-05-19",299.90,2,101);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (12,"2020-05-05",299.90,2,101);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (13,"23-06-19",1019.90,1,106);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (13,"2018-06-04",1019.90,1,106);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (14,"01-07-19",10.99,1,104);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (14,"2019-07-19",10.99,1,104);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (15,"03-08-19",18.99,3,107);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (15,"2016-08-19",18.99,3,107);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (16,"19-08-19",59.99,3,3);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (16,"2019-08-09",59.99,3,3);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (17,"21-08-19",4.99,2,108);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (17,"2018-08-10",4.99,2,108);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (18,"12-09-19",246.90,1,105);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (18,"2012-09-19",246.90,1,105);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (19,"19-09-19",39.99,1,104);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (19,"2019-09-17",39.99,1,104);
 
-INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (20,"25-09-19",12.99,1,110);
+INSERT INTO compra(idCompra,data,preço,idLoja,codigoPessoa) VALUES (20,"2019-09-01",12.99,1,110);
 
 --  artigoS
 INSERT INTO artigo(SN, nome ,preço, ano , idLoja ,idCompra) VALUES (8542000,"The Death Of Me",15.99,2020,1,1);
